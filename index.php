@@ -7,6 +7,10 @@
     <title>PHP OOP Traits</title>
 </head>
 <body>
-    
+    <h1>PHP OOP Traits</h1>
+    <?php
+
+
+?>
 </body>
 </html>
