@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>PHP OOP Traits</h1>
+    <h4>Traits are used to declare methods that can be used in multiple classes</h4>
     <?php
 
 
