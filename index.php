@@ -10,7 +10,18 @@
     <h1>PHP OOP Traits</h1>
     <h4>Traits are used to declare methods that can be used in multiple classes</h4>
     <?php
-
+trait message1 {
+    public function msg1() {
+      echo "OOP is fun! "; 
+    }
+  }
+  
+  class Welcome {
+    use message1;
+  }
+  
+  $obj = new Welcome();
+  $obj->msg1();
 
 ?>
 </body>
